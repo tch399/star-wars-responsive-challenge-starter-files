@@ -21,14 +21,12 @@
 }
 
 .box img {
-  display: inline-block;
+  display: block;
   width: 100%;
-};
+}
 
 .box {
-  width: 100%;
-  height: 200px;
-  margin: 10px;
+  min-width: 200px;
 }
 
 .col-12 {
@@ -46,5 +44,4 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-
 }
